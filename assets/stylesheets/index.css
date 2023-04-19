@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'igra';
+    src: url('../fonts/igrasans-webfont.woff2') format('woff2'),
+         url('../fonts/igrasans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    position: absolute;
+    left: 1vw;
+}
+
+.text {
+    font-family: 'igra', sans-serif;
+    color: #FFFFFF;
+    font-size: 13vw;
+    width: 100%;
+}
+
+.text > .path {
+    position: relative;
+    left: 34vw;
+}
+.text > .right{
+    position: relative;
+    left: 35vw;
+}
+.text > .bracket{
+    color: #FF4D00;
+}
+h2{
+    left: -11vw;
+    font-family: 'montserrat', sans-serif;
+    font-size: 11vw;
+    color: #FF4D00;
+}
+.about{
+    position: relative;
+    top: 100vh;
+}
+h2 > span{
+    color: #FFFFFF;
+}
+
+p{
+    color: #adadad;
+    font-family: 'montserrat', sans-serif;
+    font-size: 7vw;
+    position: relative;
+    top: 102vh;
+    left: 7vw;
+    width: 86%;
+}
+
+.team{
+    position: relative;
+    top: 107vh;
+}
+
+.team-para{
+    top: 109vh;
+}
+img{
+    position: relative;
+    top: 114vh;
+    left: -12vw;
+    object-fit: contain;
+    height: 22vh;
+}
+.space{
+    height: 10vh;
+    position: absolute;
+    top: 191vh;
+    width: 100%;
+}
