@@ -37,7 +37,7 @@ body {
     align-items: center;
     width: 96%;
     position: absolute;
-    left: 5vw;
+    left: 3vw;
 }
 
 .text {
@@ -138,7 +138,7 @@ img{
 }
 .team-members{
     position: absolute;
-    top: 149vh;
+    top: 153vh;
     display: flex;
     justify-content: center;
     align-items: center;
