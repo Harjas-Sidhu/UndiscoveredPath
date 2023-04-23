@@ -37,7 +37,7 @@ body {
     align-items: center;
     width: 96%;
     position: absolute;
-    left: 1vw;
+    left: 5vw;
 }
 
 .text {
@@ -66,7 +66,7 @@ h2{
 }
 .about{
     position: relative;
-    top: 100vh;
+    top: 106vh;
 }
 h2 > span{
     color: #FFFFFF;
@@ -77,29 +77,117 @@ p{
     font-family: 'montserrat', sans-serif;
     font-size: 7vw;
     position: relative;
-    top: 102vh;
+    top: 110vh;
     left: 7vw;
     width: 86%;
 }
 
 .team{
     position: relative;
-    top: 107vh;
+    top: 164vh;
 }
 
 .team-para{
-    top: 109vh;
+    top: 154vh;
 }
 img{
     position: relative;
-    top: 114vh;
+    top: 119vh;
     left: -12vw;
     object-fit: contain;
     height: 22vh;
 }
-.space{
-    height: 10vh;
-    position: absolute;
-    top: 191vh;
+.event{
+    position: relative;
+    top: 126vh;
+    color: #FFFFFF;
+    font-family: 'igra', sans-serif;
+    font-size: 9vw;
+    left: 3vw;
+}
+.event > span{
+    color: #FF4D00;
+}
+.details{
+    position: relative;
+    top: 118vh;
+    color: #adadad;
+    font-family: 'montserrat', sans-serif;
+    font-size: 6vw;
+    left: 3vw;
+    text-align: center;
     width: 100%;
+    margin-bottom: 1vh;
+}
+.rgstr{
+    position: relative;
+    top: 154vh;
+    font-family: 'igra', sans-serif;
+    font-size: 9vw;
+    left: 3vw;
+    background-color: #FF4D00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 59vw;
+}
+.rgstr > a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.team-members{
+    position: absolute;
+    top: 149vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team-members > .member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7vh;
+}
+.team-members > .member > h3{
+    font-family: 'igra', sans-serif;
+    font-size: 6vw;
+    color: #FFFFFF;
+    position: absolute;
+    top: 124vh;
+    left: 16vw;
+    display: block;
+    width: 165%;
+}
+.team-members > .member > h3 > span{
+    color: #FF4D00;
+}
+#sec{
+    top: 146vh;
+    left: -22vw;
+}
+#thi{
+    top: 168vh;
+    left: 19vw;
+    width: 156%;
+}
+.team-members > .member > img{
+    position: relative;
+    top: 120vh;
+    left: -22vw;
+    object-fit: cover;
+    height: 15vh;
+    border-radius: 50%;
+}
+#sec-img{
+    left: 29vw;
+}
+.pole{
+    position: absolute;
+    top: 333vh;
+    left: 0;
+    height: 39vh;
+    object-fit: contain;
 }
